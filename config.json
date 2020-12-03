@@ -4,7 +4,7 @@
         "timeFormat": "D.M.YYYY. H:mm:ss.SSS",
         "locale": "de-DE"
     },
-    "botOwner": "ID HERE",
+    "botOwner": "457805013474082817",
     "cacheInterval": 12,
     "presenceInterval": 30,
     "spamThreshold": 15
