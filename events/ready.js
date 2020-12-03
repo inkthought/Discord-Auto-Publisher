@@ -12,7 +12,7 @@ module.exports = async () => {
 
 		bot.user.setPresence({
 			activity: {
-				name: `${servers} server${bot.guilds.cache.size > 1 ? 's' : ''}`,
+				name: `inkthought labs`,
 				type: 'WATCHING',
 			},
 		})
