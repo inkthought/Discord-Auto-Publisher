@@ -23,7 +23,9 @@ process.on('unhandledRejection', (error) => {
 
 bot.on("message"), (message) => {
 	if (message.channel.id === "804351457054031902") {
-		if (!message.content.startsWith("!suggest") message.delete
+		if (!message.content.startsWith("!suggest") { 
+		    message.delete
+		    }
 	}
 })
 
