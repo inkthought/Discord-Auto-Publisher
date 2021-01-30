@@ -23,8 +23,8 @@ process.on('unhandledRejection', (error) => {
 
 bot.on("message", (message) => {
   if (message.channel.id === "804351457054031902") {
-    if (message.author.id === "235148962103951360") return;
     if (!message.content.startsWith("!suggest")) {
+	    if (message.author.id === "235148962103951360") return;
       message.delete();
     }
   }
